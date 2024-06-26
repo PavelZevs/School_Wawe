@@ -1,0 +1,176 @@
+@media (max-width: 1100px) {
+  .container__items {
+    justify-content: center;
+  }
+  .item__bot__block {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .team_container {
+    justify-content: center;
+  }
+  .services__packets {
+    justify-content: center;
+  }
+  .Form__container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .form__btn {
+    margin-bottom: 73px;
+  }
+  .container__items {
+    gap: 74px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .top__navbar {
+    display: block;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+  }
+  .top__nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navbar {
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+
+  .navbar.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar a {
+    display: block;
+  }
+
+  #burger {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.3s;
+  }
+  #burger:hover {
+    background-color: rgb(158, 157, 226);
+    color: white;
+    border-radius: 20%;
+  }
+}
+
+@media (max-width: 900px) {
+  .title_title h1 {
+    font-size: 120px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .form .form__ {
+    width: 300px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .swiper,
+  .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    display: none;
+  }
+  .title_title h1 {
+    font-size: 90px;
+  }
+  .title_title h5 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  #side_dash {
+    font-size: 20px;
+  }
+  .text__school {
+    flex-wrap: wrap;
+  }
+  .item__block__block h6 {
+    font-size: 16px;
+  }
+  #myBtnContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .row {
+    justify-content: center;
+  }
+  .column {
+    margin: 0 10px 5px 0;
+  }
+  .Gallery h2 {
+    margin-top: 100px;
+    margin-bottom: 100p;
+  }
+  .About_school h2 {
+    margin: 100px auto 90px;
+  }
+  .show_more {
+    font-size: 18px;
+    max-width: 290px;
+    padding: 10px 45px;
+  }
+  .ride__ride {
+    font-size: 25px;
+  }
+  .number__container {
+    gap: 50px;
+  }
+  .blog_blog h3 {
+    font-size: 25px;
+  }
+  .team__block img {
+    width: 100%;
+  }
+  .schools_gives h2 {
+    padding: 100px 0 100px;
+  }
+  .Services h2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .Form__right__block p {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .Form__container,
+  .Our_team h2 {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form__btn {
+    font-size: 18px;
+    max-width: 290px;
+    padding: 10px 45px;
+    display: block;
+    margin: 70px auto;
+  }
+  .mes__mes {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .left__block__block {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}

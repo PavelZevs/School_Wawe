@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Raleway:wght@600;700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Raleway:wght@600;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h2 {
+  color: #01353e;
+  font-family: "Raleway";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#side_dash {
+  color: #00b2a0;
+  font-family: "Raleway";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+#burger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+/* ------------------------------Header */
+
+.BG__wrap {
+  background-image: url(../images/Bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  flex-wrap: wrap;
+}
+
+.top__content {
+  flex: 1;
+  text-align: center;
+}
+
+.top__nav {
+  display: inline-block;
+}
+
+.top__nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar li a {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  text-transform: none;
+  position: relative;
+}
+
+.navbar li a:after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #00b2a0;
+  transition: 0.3s ease-out;
+}
+
+.navbar li a:hover:after,
+.navbar li a:focus:after {
+  width: 100%;
+}
+
+.title_title {
+  padding: 261px 0 476px 0;
+}
+
+.title_title h1 {
+  text-align: center;
+  color: #0d302c;
+  font-family: "Raleway";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.title_title h5 {
+  text-align: center;
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+/* -----------------------About_school */
+
+.About_school h2 {
+  margin: 189px auto 96px;
+}
+
+.text__school {
+  display: flex;
+  gap: 120px;
+  padding-bottom: 199px;
+}
+
+.__text1,
+.__text2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text__school p {
+  max-width: 890px;
+  margin: 0 auto;
+  color: #242121;
+}
+
+.__text1 p + p,
+.__text2 p + p {
+  padding-top: 30px;
+}
+
+/* ------------------School_gives */
+
+.schools_gives {
+  background-color: #f8f8f8;
+}
+
+.schools_gives h2 {
+  text-align: center;
+  padding: 200px 0 101px;
+}
+
+.container__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 102px;
+}
+
+.item__block__block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item__block__block h6 {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.item__block p {
+  max-width: 350px;
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.item__bot__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+}
+
+.left__block__block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pct {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.bot_txt {
+  color: #242121;
+  font-family: " Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.left__block {
+  margin-bottom: 18px;
+}
+
+.right__block p {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.right__block p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/* ------------------------------------------------Conquer the peaks */
+
+.Content_peaks {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.Content_peaks h2 {
+  text-align: center;
+}
+
+.Content_peaks p {
+  max-width: 507px;
+  margin: 0 auto;
+}
+
+.Content_peaks p:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.Content_peaks img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* -----------------------Gallery */
+
+.Gallery h2 {
+  margin-top: 200px;
+  margin-bottom: 212px;
+  text-align: center;
+}
+
+.btn_active,
+.btn {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  background: none;
+  border: none;
+}
+
+#myBtnContainer {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.btn_active:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #00b2a0;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.row img {
+  width: 200px;
+  height: 200px;
+}
+
+.show_more {
+  max-width: 350px;
+  display: block;
+  margin: 50px auto 200px;
+  border: 1px solid #c4c4c4;
+  background: #fff;
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  padding: 23px 91px;
+  cursor: pointer;
+}
+
+.show_more:hover {
+  background-color: #00b2a0;
+  color: #fff;
+}
+
+.ride {
+  background-color: #f8f8f8;
+}
+
+.ride__ride {
+  text-align: center;
+  color: #242121;
+  font-family: "Roboto Condenced";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.6px;
+  padding: 80px 0;
+}
+
+.ride__ride h5 {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.6px;
+}
+
+.ride__ride span {
+  display: flex;
+  justify-content: end;
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+/* -----------------------------------------Frame */
+
+.Frame {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+iframe {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 200px;
+}
+
+.number__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  text-align: center;
+}
+
+.number__container__block h3 {
+  color: #01353e;
+  font-family: "Roboto Condensed";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  padding-bottom: 9px;
+}
+
+.number__container__block p {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+/* ---------------------------------------Blog */
+
+.Blog {
+  position: relative;
+  z-index: 3;
+  left: 0;
+  top: 0;
+}
+.slider {
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  background-color: #00b2a0;
+}
+
+.Blog h2 {
+  margin-bottom: 229px;
+}
+
+.swiper-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.blog_blog h3 {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0.6px;
+  padding: 543px 0 369px 0;
+  max-width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.blog_blog span {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  position: absolute;
+  z-index: 2;
+}
+
+.swiper-slide {
+  height: 100vh;
+}
+
+/* -----------------------------Our team */
+
+.Our_team h2 {
+  margin-top: 200px;
+}
+
+.team_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 105px;
+  flex-wrap: wrap;
+  margin-top: 212px;
+  margin-bottom: 204px;
+}
+
+.team__block {
+  text-align: center;
+}
+
+.team__block h6 {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.team__block span {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  padding-top: 10px;
+}
+
+.location {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+/* ------------------------Services */
+
+.Services {
+  background-color: #f8f8f8;
+}
+
+.Services h2 {
+  padding-top: 200px;
+  padding-bottom: 212px;
+}
+
+.services__packets {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+}
+
+.packets {
+  width: 360px;
+  background-color: #fff;
+}
+
+.packets h4 {
+  text-align: center;
+  color: #01353e;
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 58px;
+  padding-top: 45px;
+}
+
+.packets p {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  padding-left: 20px;
+}
+
+.packets p + p {
+  padding-top: 20px;
+}
+
+.packets h5 {
+  text-align: center;
+  color: #01353e;
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 45px;
+}
+
+.packets span {
+  text-align: center;
+  color: #01353e;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#dollar1 {
+  padding-top: 137px;
+}
+
+#dollar2,
+#dollar3 {
+  padding-top: 61px;
+}
+
+/* ----------------------------------Submit Form */
+
+.Form__container {
+  margin-top: 243px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .form__ {
+  width: 569px;
+  color: #00b2a0;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  border-bottom: 1px solid #dadada;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 55px;
+  padding: 0px 0 16px 0;
+}
+
+.form input:last-child {
+  padding-bottom: 98px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form__right__block {
+  background-color: #f8f8f8;
+}
+
+.form__btn {
+  max-width: 350px;
+  border: 1px solid #c4c4c4;
+  background: #fff;
+  color: #242121;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  padding: 23px 111px;
+  margin-top: 73px;
+}
+
+.form__btn:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #00b2a0;
+}
+
+.Form__right__block p {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  padding: 49px 230px 49px 52px;
+}
+
+.mes__mes {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin: 200px auto 200px;
+}
+
+.mes__mes a {
+  color: #242121;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mes__mes a:hover {
+  color: #00b2a0;
+}
+
+.footer {
+  background-color: #00b2a0;
+  text-align: center;
+  padding: 68px 68px;
+}
